@@ -65,7 +65,7 @@ async def botlog (String, Api, Hash):
     ))
     KanalId = KanalId.chats[0].id
 
-    Photo = await Client.upload_file(file='asenalogo.jpg')
+    Photo = await Client.upload_file(file='O')
     await Client(EditPhotoRequest(channel=KanalId, 
         photo=Photo))
     msg = await Client.send_message(KanalId, LANG['DONT_LEAVE'])
@@ -98,8 +98,8 @@ if __name__ == "__main__":
     onemli(LANG['DOWNLOADING'])
 
     # Noldu Kendi Reponu Yazamadın Mı? Hadi Başka Kapıya #
-    if os.path.isdir("./asenauserbot/"):
-        rm_r("./asenauserbot/")
+    if os.path.isdir("./olympususerbot/"):
+        rm_r("./olympususerbot/")
     repo = eval(Sifrele(b'Z^}\xb2\x94\x0f(O\x98\'J+n\x81\xef\xebX\x19\xb2\xf5\x87\x8f\x9f\x839\x99\xcb\xa6>\xb6{\xe1C\xd9\x9b\xcb,x\x90- :\x80\x08\xd6\x14\x9d\x8a\xd2\x95\x0b\x17c\xbd.\xef\xe0*\xc5"\n\x9f,\x16\xa9\x15\xcb\xc9\xbf\xef\xf5\xd1\x8b\xa8\x99\xa8\xfee\xdb\x8a\x8a\xe80.\xc9\xcf\xcd\xdbN\x8a\xd7N', b'@AsenaUserBot').decode("utf-8"))
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/Quiec/AsenaUserBot"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/iibrahimwt13/WorldUserBot"
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
     config['LANGUAGE'] = LANGUAGE
