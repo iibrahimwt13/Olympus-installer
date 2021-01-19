@@ -1,5 +1,5 @@
 # Olympus Installer
-[![Run on Repl.it](https://repl.it/@iibrahimwt13/Olympus-installer#asena_installer)](https://repl.it/github/asenadev/installer)
+[![Run on Repl.it] (https://repl.it/@iibrahimwt13/Olympus-installer#asena_installer)](https://repl.it/github/asenadev/installer)
 
 HerokuAPI'si kullanılarak yapılmış Otomatik Asena Deploy'er
 
