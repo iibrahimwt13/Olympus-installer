@@ -1,4 +1,4 @@
-# Coded By GitHub/iibrahimwt13 TG/Zeus0010 #
+# Coded By GitHub/iibrahimwt13 /Zeus0010 #
 # Don't kang without permission #
 # @OlympusUserBot #
 
@@ -7,7 +7,7 @@ import asyncio
 import os
 import sys
 import subprocess
-from asena_installer import hata, bilgi, onemli, soru
+from olympus_installer import hata, bilgi, onemli, soru
 
 from telethon import TelegramClient, events, version
 from telethon.errors import SessionPasswordNeededError, PhoneCodeInvalidError, PasswordHashInvalidError, PhoneNumberInvalidError
